@@ -21,13 +21,13 @@ gem "tilt", "1.3.4"
 
 #copied for the railstutorial book
 group :development do
-gem 'rspec-rails', '2.0.1'
+gem 'rspec-rails' 
 end
 
 
 group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
+  gem 'rspec'
+  gem 'webrat'
 end
 
 #end copy from rails tutorial book
