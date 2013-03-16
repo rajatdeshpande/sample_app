@@ -1,4 +1,7 @@
 SampleApp::Application.configure do
+
+  # corrected from http://stackoverflow.com/questions/7443536/blueprint-screen-css-isnt-precompiled
+  config.assets.precompile += %w( *.css *.js )
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
